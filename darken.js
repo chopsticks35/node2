@@ -5,4 +5,4 @@ var g = process.argv[3];
 var b = process.argv[4]; 
 
 var darkenCli = colorUtil.luminosity(r,g,b);
-console.log(darkenCli);
+console.log(darkenCli.r, darkenCli.g, darkenCli.b);
